@@ -1,6 +1,6 @@
-src.foo.plus1
+src.foo.plus3
 =============
 
 .. currentmodule:: src.foo
 
-.. autofunction:: plus1
+.. autofunction:: plus3

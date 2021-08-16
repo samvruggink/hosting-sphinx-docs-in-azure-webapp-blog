@@ -1,0 +1,12 @@
+version: "3.3"
+services:
+  dbrcore-documentation:
+    restart: always
+    ports:
+      - 8080:80
+    environment:
+      WEBSITES_ENABLE_APP_SERVICE_STORAGE: "True"
+    image: nginx:1.20.1
+    volumes:
+      - sphinxdocumentation:/usr/share/nginx/html
+      - nginxconfiguration:/etc/nginx

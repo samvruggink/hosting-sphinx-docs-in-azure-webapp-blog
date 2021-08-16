@@ -1,4 +1,4 @@
-src.foo
+﻿src.foo
 =======
 
 .. automodule:: src.foo
@@ -15,6 +15,7 @@ src.foo
       :toctree:                                         
    
       plus1
+      plus3
    
    
 
